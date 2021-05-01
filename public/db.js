@@ -9,3 +9,16 @@ request.onupgradeneeded = function (event) {
       autoIncrement: true 
     });
   };
+
+  //Checking the status of the browser to see if it's online 
+  request.onsuccess = function (event) {
+    db = event.target.result;
+    if (navigator.onLine) {
+      checkDatabase();
+    }
+  };
+
+  request.onerror = function (event) {
+    // log error here
+    console.log("Oops! "+ event.target.errorCode);
+  };
