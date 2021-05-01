@@ -1,4 +1,10 @@
 {
     "name":"BudgetTracker",
-    "Short_name":
+    "short_name": "Budget-Tracker",
+    "icons": [
+        {
+            "src": "/icons/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
 }
