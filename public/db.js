@@ -31,3 +31,13 @@ request.onupgradeneeded = function (event) {
     // add record to your store with add method.
     store.add(record);
   }
+
+  function checkDatabase() {
+    db = request.result; // is this right?
+    // open a transaction on your pending db
+    const transaction = db.transaction(["budget"], "readwrite");
+    // access your pending object store
+    const budgetStore = transaction.objectStore("budget");
+    // get all records from store and set to a variable
+    const getAll = store.getAll();
+    const budgetIndex = budgetStore.index("budgetIndex");
