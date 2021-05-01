@@ -18,6 +18,6 @@
     "display": "standalone",
    
     "scope": "/",
-    "theme_color": "#dddddd",
+    "theme_color": "#dddddd"
     
 }
