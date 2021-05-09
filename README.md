@@ -39,7 +39,7 @@ Giving users a fast and easy way to track their money is important, but allowing
 
 Demonstration the application:
 
-![Budget Tracker functionality](./assets/budgetTracker)
+![Screenshot01](./assets/budgetTracker.png)
 
 ## License
 
