@@ -23,3 +23,27 @@ SO THAT my account balance is accurate when I am traveling
 Business Context
 Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
 
+## Technologies Used
+* MongoDB
+* Mongoose
+* Node.js
+* Express
+* Service workers
+* Deployed to Heroku with Mongo Atlas
+
+## Deployed URL
+
+[Click here for the deployed link!](https://floating-headland-48587.herokuapp.com/)
+
+## Usage
+
+Demonstration the application:
+
+![Budget Tracker functionality](./assets/budgetTracker)
+
+## License
+
+> This project was created under the [MIT License](https://opensource.org/licenses/MIT)
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://shields.io/)
+
